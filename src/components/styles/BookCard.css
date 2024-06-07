@@ -1,0 +1,81 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 20px 20px 100px;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+}
+.buttonContainer{
+    align-items: center;
+    text-align: center;
+}
+.card button{
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;   
+    padding: 8px 25px;
+}
+
+.cardItem {
+    margin-bottom: 10px;
+}
+
+.cardItem h3 {
+    display: inline;
+    margin-right: 5px;
+    font-size: 1.1em;
+}
+
+.cardItem span {
+    font-size: 1em;
+    color: #333;
+}
+
+.bookshelfHeading{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 767px) {
+    .cardContainer {
+        padding: 20px;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .card {
+        height: 200px; 
+    }
+
+    .cardItem {
+        margin-bottom: 5px; 
+    }
+
+    .cardItem h3 {
+        font-size: 1em;
+    }
+
+    .cardItem span {
+        font-size: 0.9em; 
+    }
+
+    .card button {
+        font-size: 12px; 
+        padding: 6px 20px; 
+    }
+}
+
